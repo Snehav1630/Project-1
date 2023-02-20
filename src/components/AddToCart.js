@@ -6,7 +6,7 @@ export default function AddToCart({addToCartItem}) {
             <div>
             <img src={item.img} alt=""/>
             <h6>{item.title}</h6>
-            <button>Purchase</button>
+        
             </div>
            
     )
@@ -17,6 +17,7 @@ export default function AddToCart({addToCartItem}) {
         <div className='add-to-cart-item'>
             <h6 className='text-center'>Your Cart</h6>
           {addToCartResults}
+          <button>Purchase</button>
         </div>
       </div>
     </div>
