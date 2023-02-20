@@ -6,7 +6,9 @@ export default function AddToCart({addToCartItem}) {
             <div>
             <img src={item.img} alt=""/>
             <h6>{item.title}</h6>
+            <button>Purchase</button>
             </div>
+           
     )
     })
   return (
